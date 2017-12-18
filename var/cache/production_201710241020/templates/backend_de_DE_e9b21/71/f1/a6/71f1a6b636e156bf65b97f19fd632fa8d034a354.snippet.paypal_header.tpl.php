@@ -1,6 +1,6 @@
-<?php /* Smarty version Smarty-3.1.12, created on 2017-12-18 19:30:25
+<?php /* Smarty version Smarty-3.1.12, created on 2017-12-19 00:31:11
          compiled from "/var/www/html/shopware/apps/shopware/htdocs/engine/Shopware/Plugins/Community/Frontend/SwagPaymentPaypal/Views/backend/index/paypal_header.tpl" */ ?>
-<?php /*%%SmartyHeaderCode:1214558495a3809412b64d8-83921560%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:16082534385a384fbfd31bc7-37782827%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
@@ -35,7 +35,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
       2 => 'snippet',
     ),
   ),
-  'nocache_hash' => '1214558495a3809412b64d8-83921560',
+  'nocache_hash' => '16082534385a384fbfd31bc7-37782827',
   'function' => 
   array (
   ),
@@ -45,16 +45,16 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   ),
   'has_nocache_code' => false,
   'version' => 'Smarty-3.1.12',
-  'unifunc' => 'content_5a38094148d009_50832245',
+  'unifunc' => 'content_5a384fbfefc7f2_45708262',
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_5a38094148d009_50832245')) {function content_5a38094148d009_50832245($_smarty_tpl) {?><!DOCTYPE html>
+<?php if ($_valid && !is_callable('content_5a384fbfefc7f2_45708262')) {function content_5a384fbfefc7f2_45708262($_smarty_tpl) {?><!DOCTYPE html>
 <html>
 
 
     <?php /*  Call merged included template "backend/index/header.tpl" */
 $_tpl_stack[] = $_smarty_tpl;
- $_smarty_tpl = $_smarty_tpl->setupInlineSubTemplate("backend/index/header.tpl", $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, null, null, array(), 0, '1214558495a3809412b64d8-83921560');
-content_5a3809413d4e52_05177291($_smarty_tpl);
+ $_smarty_tpl = $_smarty_tpl->setupInlineSubTemplate("backend/index/header.tpl", $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, null, null, array(), 0, '16082534385a384fbfd31bc7-37782827');
+content_5a384fbfdde673_42082064($_smarty_tpl);
 $_smarty_tpl = array_pop($_tpl_stack); /*  End of included template "backend/index/header.tpl" */?>
 
 
@@ -74,9 +74,9 @@ $_smarty_tpl = array_pop($_tpl_stack); /*  End of included template "backend/ind
 
   </body>
 </html>
-<?php }} ?><?php /* Smarty version Smarty-3.1.12, created on 2017-12-18 19:30:25
+<?php }} ?><?php /* Smarty version Smarty-3.1.12, created on 2017-12-19 00:31:11
          compiled from "/var/www/html/shopware/apps/shopware/htdocs/themes/Backend/ExtJs/backend/base/header.tpl" */ ?>
-<?php if ($_valid && !is_callable('content_5a3809412f4a38_21961838')) {function content_5a3809412f4a38_21961838($_smarty_tpl) {?>
+<?php if ($_valid && !is_callable('content_5a384fbfd4e842_93613808')) {function content_5a384fbfd4e842_93613808($_smarty_tpl) {?>
 <head>
 
 
@@ -147,9 +147,9 @@ de<?php $_block_content = ob_get_clean(); $_block_repeat=false; echo Enlight_Com
     <?php }?>
 
 </head>
-<?php }} ?><?php /* Smarty version Smarty-3.1.12, created on 2017-12-18 19:30:25
+<?php }} ?><?php /* Smarty version Smarty-3.1.12, created on 2017-12-19 00:31:11
          compiled from "/var/www/html/shopware/apps/shopware/htdocs/themes/Backend/ExtJs/backend/index/header.tpl" */ ?>
-<?php if ($_valid && !is_callable('content_5a3809413d4e52_05177291')) {function content_5a3809413d4e52_05177291($_smarty_tpl) {?>
+<?php if ($_valid && !is_callable('content_5a384fbfdde673_42082064')) {function content_5a384fbfdde673_42082064($_smarty_tpl) {?>
 <head>
 
 
@@ -334,7 +334,7 @@ de<?php $_block_content = ob_get_clean(); $_block_repeat=false; echo Enlight_Com
         enabled: true,
         disableCaching: true,
         disableCachingParam: 'no-cache',
-        disableCachingValue: '1513621825<?php if ($_smarty_tpl->tpl_vars['user']->value&&$_smarty_tpl->tpl_vars['user']->value->locale){?>+<?php echo $_smarty_tpl->tpl_vars['user']->value->locale->getId();?>
+        disableCachingValue: '1513639871<?php if ($_smarty_tpl->tpl_vars['user']->value&&$_smarty_tpl->tpl_vars['user']->value->locale){?>+<?php echo $_smarty_tpl->tpl_vars['user']->value->locale->getId();?>
 +<?php echo $_smarty_tpl->tpl_vars['user']->value->role->getId();?>
 <?php }?>'
     });

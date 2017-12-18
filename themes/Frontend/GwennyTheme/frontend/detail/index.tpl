@@ -20,3 +20,45 @@
       </span>
     </li>
 {/block}
+
+{block name='frontend_detail_index_detail' append}
+<div class="examplebox">
+    <div class="content--title">Variablen</div>
+    <div class="primary">Primärfarbe</div>
+    <div class="primary-light">Primärfarbe hell</div>
+    <div class="secondary">Sekundärfarbe</div>
+    <div class="secondary-dark">Sekundärfarbe dunkel</div>
+    <div class="content--title">Icons</div>
+    <div class="spacer">Pfeil nach rechts<i class="icon--arrow-right"></i></div>
+    <div class="spacer"><i class="icon--thumbsup"></i> ThumbsUp-Icon</div>
+
+    <div class="content--title">Hinweisboxen mit Icons</div>
+    <div class="alert is--success is--rounded">
+      <div class="alert--icon">
+        <i class="icon--element icon--check"></i>
+      </div>
+      <div class="alert--content">Erfolgsmeldung mit Icon</div>
+    </div>
+    <div class="alert is--warning is--rounded">
+      <div class="alert--icon">
+        <i class="icon--element icon--warning"></i>
+      </div>
+      <div class="alert--content">Warnmeldung mit Icon</div>
+    </div>
+    <div class="content--title">Badges</div>
+    <div><span class="badge is--primary">1</span>Badge 1</div>
+    <div><span class="badge is--secondary">2</span>Badge 2</div>
+    <div><span class="badge is--minimal">3</span>Badge 3</div>
+    <div class="content--title">Ribbons</div>
+    <div class="ribbon-box">
+      <div class="ribbon is--left">
+        <p class="ribbon--content orange">Highlight!</p>
+      </div>
+      <div class="ribbon is--right">
+        <p class="ribbon--content green">Highlight!</p>
+      </div>
+    </div>
+</div>
+
+
+{/block}

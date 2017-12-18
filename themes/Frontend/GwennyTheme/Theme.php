@@ -25,7 +25,11 @@ MIT
 SHOPWARE_EOD;
             
     protected $css = array(
-      'src/css/no_notepad.css'
+//      'src/css/no_notepad.css'
+    );
+    
+    protected $javascript = array(
+      'src/js/functions.js'
     );
 
     public function createConfig(Form\Container\TabContainer $container)

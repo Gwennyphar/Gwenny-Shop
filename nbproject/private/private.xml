@@ -5,7 +5,6 @@
         <group>
             <file>file:/var/www/html/shopware/apps/shopware/htdocs/themes/Frontend/GwennyTheme/frontend/detail/index.tpl</file>
             <file>file:/var/www/html/shopware/apps/shopware/htdocs/themes/Frontend/GwennyTheme/frontend/detail/tabs/description.tpl</file>
-            <file>file:/var/www/html/shopware/apps/shopware/htdocs/themes/Frontend/GwennyTheme/Theme.php</file>
             <file>file:/var/www/html/shopware/apps/shopware/htdocs/themes/Frontend/GwennyTheme/frontend/_public/src/css/no_notepad.css</file>
         </group>
     </open-files>

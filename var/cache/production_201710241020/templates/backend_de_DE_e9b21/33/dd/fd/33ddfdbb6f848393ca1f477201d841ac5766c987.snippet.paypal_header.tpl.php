@@ -1,6 +1,6 @@
-<?php /* Smarty version Smarty-3.1.12, created on 2017-12-18 19:30:31
+<?php /* Smarty version Smarty-3.1.12, created on 2017-12-19 00:31:24
          compiled from "/var/www/html/shopware/apps/shopware/htdocs/engine/Shopware/Plugins/Community/Frontend/SwagPaymentPaypal/Views/backend/index/paypal_header.tpl" */ ?>
-<?php /*%%SmartyHeaderCode:1719191895a3809478d6fd9-90072569%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:3880324765a384fcc1ff545-51822963%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
@@ -17,15 +17,15 @@ $_valid = $_smarty_tpl->decodeProperties(array (
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '1719191895a3809478d6fd9-90072569',
+  'nocache_hash' => '3880324765a384fcc1ff545-51822963',
   'function' => 
   array (
   ),
   'has_nocache_code' => false,
   'version' => 'Smarty-3.1.12',
-  'unifunc' => 'content_5a3809478e5981_97843388',
+  'unifunc' => 'content_5a384fcc22e013_74449209',
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_5a3809478e5981_97843388')) {function content_5a3809478e5981_97843388($_smarty_tpl) {?>/**
+<?php if ($_valid && !is_callable('content_5a384fcc22e013_74449209')) {function content_5a384fcc22e013_74449209($_smarty_tpl) {?>/**
  * Shopware 5
  * Copyright (c) shopware AG
  *
