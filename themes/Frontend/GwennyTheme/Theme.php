@@ -23,6 +23,10 @@ SHOPWARE_EOD;
     protected $license = <<<'SHOPWARE_EOD'
 MIT
 SHOPWARE_EOD;
+            
+    protected $css = array(
+      'src/css/no_notepad.css'
+    );
 
     public function createConfig(Form\Container\TabContainer $container)
     {

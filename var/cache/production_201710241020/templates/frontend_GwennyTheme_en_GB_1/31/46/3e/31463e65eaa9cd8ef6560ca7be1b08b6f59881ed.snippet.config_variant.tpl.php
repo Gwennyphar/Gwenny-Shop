@@ -1,6 +1,6 @@
-<?php /* Smarty version Smarty-3.1.12, created on 2017-12-18 18:19:09
+<?php /* Smarty version Smarty-3.1.12, created on 2017-12-18 18:53:09
          compiled from "/var/www/html/shopware/apps/shopware/htdocs/themes/Frontend/Bare/frontend/detail/config_variant.tpl" */ ?>
-<?php /*%%SmartyHeaderCode:1211270955a37f88dbde940-90344092%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:11195085195a3800853fc366-05625158%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
@@ -17,7 +17,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
       2 => 'snippet',
     ),
   ),
-  'nocache_hash' => '1211270955a37f88dbde940-90344092',
+  'nocache_hash' => '11195085195a3800853fc366-05625158',
   'function' => 
   array (
   ),
@@ -32,9 +32,9 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   ),
   'has_nocache_code' => false,
   'version' => 'Smarty-3.1.12',
-  'unifunc' => 'content_5a37f88dc6f332_05337094',
+  'unifunc' => 'content_5a3800855741a6_69523045',
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_5a37f88dc6f332_05337094')) {function content_5a37f88dc6f332_05337094($_smarty_tpl) {?><?php $_smarty_tpl->tpl_vars['configurator'] = new Smarty_variable($_smarty_tpl->tpl_vars['sArticle']->value['sConfigurator'], null, 0);?>
+<?php if ($_valid && !is_callable('content_5a3800855741a6_69523045')) {function content_5a3800855741a6_69523045($_smarty_tpl) {?><?php $_smarty_tpl->tpl_vars['configurator'] = new Smarty_variable($_smarty_tpl->tpl_vars['sArticle']->value['sConfigurator'], null, 0);?>
 
 
     <div class="configurator--variant">
@@ -127,13 +127,13 @@ $_smarty_tpl->tpl_vars['option']->_loop = true;
 
     <?php /*  Call merged included template "frontend/detail/config_reset.tpl" */
 $_tpl_stack[] = $_smarty_tpl;
- $_smarty_tpl = $_smarty_tpl->setupInlineSubTemplate("frontend/detail/config_reset.tpl", $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, null, null, array(), 0, '1211270955a37f88dbde940-90344092');
-content_5a37f88dc508b5_81175513($_smarty_tpl);
+ $_smarty_tpl = $_smarty_tpl->setupInlineSubTemplate("frontend/detail/config_reset.tpl", $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, null, null, array(), 0, '11195085195a3800853fc366-05625158');
+content_5a38008547c877_11156865($_smarty_tpl);
 $_smarty_tpl = array_pop($_tpl_stack); /*  End of included template "frontend/detail/config_reset.tpl" */?>
 
-<?php }} ?><?php /* Smarty version Smarty-3.1.12, created on 2017-12-18 18:19:09
+<?php }} ?><?php /* Smarty version Smarty-3.1.12, created on 2017-12-18 18:53:09
          compiled from "/var/www/html/shopware/apps/shopware/htdocs/themes/Frontend/Bare/frontend/detail/config_reset.tpl" */ ?>
-<?php if ($_valid && !is_callable('content_5a37f88dc508b5_81175513')) {function content_5a37f88dc508b5_81175513($_smarty_tpl) {?>
+<?php if ($_valid && !is_callable('content_5a38008547c877_11156865')) {function content_5a38008547c877_11156865($_smarty_tpl) {?>
     <?php  $_smarty_tpl->tpl_vars['sConfigurator'] = new Smarty_Variable; $_smarty_tpl->tpl_vars['sConfigurator']->_loop = false;
  $_from = $_smarty_tpl->tpl_vars['sArticle']->value['sConfigurator']; if (!is_array($_from) && !is_object($_from)) { settype($_from, 'array');}
 foreach ($_from as $_smarty_tpl->tpl_vars['sConfigurator']->key => $_smarty_tpl->tpl_vars['sConfigurator']->value){
