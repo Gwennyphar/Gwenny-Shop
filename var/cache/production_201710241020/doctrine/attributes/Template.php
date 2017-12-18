@@ -217,6 +217,14 @@ class Template extends ModelEntity
 
 
     /**
+     * @var string $alternativeArticleName
+     *
+     * @ORM\Column(name="alternative_article_name", type="text", nullable=true)
+     */
+     protected $alternativeArticleName;
+
+
+    /**
      * @var \Shopware\Models\Article\Configurator\Template\Template
      *
      * @ORM\OneToOne(targetEntity="Shopware\Models\Article\Configurator\Template\Template", inversedBy="attribute")
@@ -488,6 +496,18 @@ class Template extends ModelEntity
     public function setAttr20($attr20)
     {
         $this->attr20 = $attr20;
+        return $this;
+    }
+    
+
+    public function getAlternativeArticleName()
+    {
+        return $this->alternativeArticleName;
+    }
+
+    public function setAlternativeArticleName($alternativeArticleName)
+    {
+        $this->alternativeArticleName = $alternativeArticleName;
         return $this;
     }
     

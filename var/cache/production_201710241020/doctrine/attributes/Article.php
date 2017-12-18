@@ -225,6 +225,14 @@ class Article extends ModelEntity
 
 
     /**
+     * @var string $alternativeArticleName
+     *
+     * @ORM\Column(name="alternative_article_name", type="text", nullable=true)
+     */
+     protected $alternativeArticleName;
+
+
+    /**
      * @var \Shopware\Models\Article\Article
      *
      * @ORM\OneToOne(targetEntity="Shopware\Models\Article\Article", inversedBy="attribute")
@@ -519,6 +527,18 @@ class Article extends ModelEntity
     public function setAttr20($attr20)
     {
         $this->attr20 = $attr20;
+        return $this;
+    }
+    
+
+    public function getAlternativeArticleName()
+    {
+        return $this->alternativeArticleName;
+    }
+
+    public function setAlternativeArticleName($alternativeArticleName)
+    {
+        $this->alternativeArticleName = $alternativeArticleName;
         return $this;
     }
     
