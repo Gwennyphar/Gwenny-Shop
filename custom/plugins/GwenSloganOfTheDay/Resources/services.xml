@@ -1,0 +1,20 @@
+<?xml version="1.0" ?>
+
+<container xmlns="http://symfony.com/schema/dic/services"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:schemaLocation="http://symfony.com/schema/dic/services http://symfony.com/schema/dic/services/services-1.0.xsd">
+
+    <services>
+        <service id="gwen_slogan_of_the_day.subscriber.route" class="GwenSloganOfTheDay\Subscriber\RouteSubscriber">
+            <argument>%gwen_slogan_of_the_day.plugin_name%</argument>
+            <argument>%gwen_slogan_of_the_day.plugin_dir%</argument>
+
+            <argument type="service" id="gwen_slogan_of_the_day.slogan_printer" />
+            <argument type="service" id="shopware.plugin.cached_config_reader" />
+
+            <tag name="shopware.event_subscriber" />
+        </service>
+
+        <service id="gwen_slogan_of_the_day.slogan_printer" class="GwenSloganOfTheDay\Components\SloganPrinter" />
+    </services>
+</container>

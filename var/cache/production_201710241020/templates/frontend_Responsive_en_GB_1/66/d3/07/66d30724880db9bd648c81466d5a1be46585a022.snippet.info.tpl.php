@@ -1,6 +1,6 @@
-<?php /* Smarty version Smarty-3.1.12, created on 2017-12-18 02:31:45
+<?php /* Smarty version Smarty-3.1.12, created on 2017-12-18 15:49:51
          compiled from "/var/www/html/shopware/apps/shopware/htdocs/themes/Frontend/Bare/widgets/checkout/info.tpl" */ ?>
-<?php /*%%SmartyHeaderCode:9653842985a371a810ea677-31102111%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:17442660175a37d58f3c0ed5-61621965%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
@@ -17,7 +17,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
       2 => 'snippet',
     ),
   ),
-  'nocache_hash' => '9653842985a371a810ea677-31102111',
+  'nocache_hash' => '17442660175a37d58f3c0ed5-61621965',
   'function' => 
   array (
   ),
@@ -31,9 +31,9 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   ),
   'has_nocache_code' => false,
   'version' => 'Smarty-3.1.12',
-  'unifunc' => 'content_5a371a812e0875_03865022',
+  'unifunc' => 'content_5a37d58f7122b8_18010698',
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_5a371a812e0875_03865022')) {function content_5a371a812e0875_03865022($_smarty_tpl) {?><?php if (!is_callable('smarty_modifier_currency')) include '/var/www/html/shopware/apps/shopware/htdocs/engine/Library/Enlight/Template/Plugins/modifier.currency.php';
+<?php if ($_valid && !is_callable('content_5a37d58f7122b8_18010698')) {function content_5a37d58f7122b8_18010698($_smarty_tpl) {?><?php if (!is_callable('smarty_modifier_currency')) include '/var/www/html/shopware/apps/shopware/htdocs/engine/Library/Enlight/Template/Plugins/modifier.currency.php';
 ?>
 
     <li class="navigation--entry entry--notepad" role="menuitem">
@@ -119,8 +119,8 @@ Close menu<?php $_block_content = ob_get_clean(); $_block_repeat=false; echo Enl
                     
                         <?php /*  Call merged included template "frontend/account/sidebar.tpl" */
 $_tpl_stack[] = $_smarty_tpl;
- $_smarty_tpl = $_smarty_tpl->setupInlineSubTemplate("frontend/account/sidebar.tpl", $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, null, null, array('showSidebar'=>true,'inHeader'=>true), 0, '9653842985a371a810ea677-31102111');
-content_5a371a81158aa4_63690837($_smarty_tpl);
+ $_smarty_tpl = $_smarty_tpl->setupInlineSubTemplate("frontend/account/sidebar.tpl", $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, null, null, array('showSidebar'=>true,'inHeader'=>true), 0, '17442660175a37d58f3c0ed5-61621965');
+content_5a37d58f49f0c7_15099912($_smarty_tpl);
 $_smarty_tpl = array_pop($_tpl_stack); /*  End of included template "frontend/account/sidebar.tpl" */?>
                     
                 </div>
@@ -164,9 +164,9 @@ Shopping cart<?php $_block_content = ob_get_clean(); $_block_repeat=false; echo 
     </li>
 
 
-<?php }} ?><?php /* Smarty version Smarty-3.1.12, created on 2017-12-18 02:31:45
+<?php }} ?><?php /* Smarty version Smarty-3.1.12, created on 2017-12-18 15:49:51
          compiled from "/var/www/html/shopware/apps/shopware/htdocs/themes/Frontend/Bare/frontend/account/sidebar.tpl" */ ?>
-<?php if ($_valid && !is_callable('content_5a371a81158aa4_63690837')) {function content_5a371a81158aa4_63690837($_smarty_tpl) {?><?php if (!is_callable('smarty_function_controllerName')) include '/var/www/html/shopware/apps/shopware/htdocs/engine/Library/Enlight/Template/Plugins/function.controllerName.php';
+<?php if ($_valid && !is_callable('content_5a37d58f49f0c7_15099912')) {function content_5a37d58f49f0c7_15099912($_smarty_tpl) {?><?php if (!is_callable('smarty_function_controllerName')) include '/var/www/html/shopware/apps/shopware/htdocs/engine/Library/Enlight/Template/Plugins/function.controllerName.php';
 if (!is_callable('smarty_function_action')) include '/var/www/html/shopware/apps/shopware/htdocs/engine/Library/Enlight/Template/Plugins/function.action.php';
 ?><?php if (($_smarty_tpl->tpl_vars['sUserLoggedIn']->value&&!$_smarty_tpl->tpl_vars['sOneTimeAccount']->value)||$_smarty_tpl->tpl_vars['showSidebar']->value){?>
     <div class="account--menu is--rounded<?php ob_start();?><?php echo true;?><?php $_tmp1=ob_get_clean();?><?php if ($_tmp1){?> is--personalized<?php }?>">
