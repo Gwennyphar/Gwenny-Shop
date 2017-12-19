@@ -13,7 +13,7 @@ class Theme extends \Shopware\Components\Theme {
   protected $name = "Blog-Erweiterung";
   protected $description = "";
   protected $author = "gwenny";
-  protected $license = "";
+  protected $license = "MIT";
   protected $javascript = [
     'src/js/blog.js'
   ];

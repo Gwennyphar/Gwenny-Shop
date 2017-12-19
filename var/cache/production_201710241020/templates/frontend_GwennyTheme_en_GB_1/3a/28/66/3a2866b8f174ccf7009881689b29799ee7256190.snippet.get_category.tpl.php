@@ -1,6 +1,6 @@
-<?php /* Smarty version Smarty-3.1.12, created on 2017-12-19 21:55:44
+<?php /* Smarty version Smarty-3.1.12, created on 2017-12-19 22:46:20
          compiled from "/var/www/html/shopware/apps/shopware/htdocs/themes/Frontend/Bare/widgets/listing/get_category.tpl" */ ?>
-<?php /*%%SmartyHeaderCode:12085912015a397cd0df0ff7-60049901%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:18135834945a3988acaba0e2-20397900%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
@@ -11,7 +11,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '12085912015a397cd0df0ff7-60049901',
+  'nocache_hash' => '18135834945a3988acaba0e2-20397900',
   'function' => 
   array (
   ),
@@ -24,9 +24,9 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   ),
   'has_nocache_code' => false,
   'version' => 'Smarty-3.1.12',
-  'unifunc' => 'content_5a397cd1047448_33133077',
+  'unifunc' => 'content_5a3988acbe7f18_91420324',
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_5a397cd1047448_33133077')) {function content_5a397cd1047448_33133077($_smarty_tpl) {?>
+<?php if ($_valid && !is_callable('content_5a3988acbe7f18_91420324')) {function content_5a3988acbe7f18_91420324($_smarty_tpl) {?>
 
 
     <div class="offcanvas--overlay">
