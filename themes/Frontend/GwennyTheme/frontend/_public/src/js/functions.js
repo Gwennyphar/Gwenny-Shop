@@ -2,7 +2,6 @@
  * Author: gwenny
  * @param {type} param
  */
-console.log('=>');
 ;(function ($, window) {
     'use strict';
     $.plugin('show_modalbox', {
