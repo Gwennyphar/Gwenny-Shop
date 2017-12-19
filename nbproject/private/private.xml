@@ -3,13 +3,9 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
-            <file>file:/var/www/html/shopware/apps/shopware/htdocs/themes/Frontend/BlogExtension/frontend/blog/_public/src/js/blog.js</file>
-            <file>file:/var/www/html/shopware/apps/shopware/htdocs/themes/Frontend/BlogExtension/frontend/blog/_public/src/less/_modules/blog.less</file>
-            <file>file:/var/www/html/shopware/apps/shopware/htdocs/themes/Frontend/BlogExtension/frontend/blog/_public/src/less/modules.less</file>
-            <file>file:/var/www/html/shopware/apps/shopware/htdocs/themes/Frontend/BlogExtension/frontend/blog/Theme.php</file>
-            <file>file:/var/www/html/shopware/apps/shopware/htdocs/themes/Frontend/BlogExtension/frontend/blog/box.tpl</file>
-            <file>file:/var/www/html/shopware/apps/shopware/htdocs/themes/Frontend/BlogExtension/frontend/blog/_public/src/less/all.less</file>
-            <file>file:/var/www/html/shopware/apps/shopware/htdocs/themes/Frontend/BlogExtension/frontend/blog/index.tpl</file>
+            <file>file:/var/www/html/shopware/apps/shopware/htdocs/custom/plugins/GwenQuestions/Controllers/Frontend/QwenQuestions.php</file>
+            <file>file:/var/www/html/shopware/apps/shopware/htdocs/custom/plugins/GwenQuestions/resources/Views/frontend/questions/index.tpl</file>
+            <file>file:/var/www/html/shopware/apps/shopware/htdocs/custom/plugins/GwenQuestions/GwenQuestions.php</file>
         </group>
     </open-files>
 </project-private>

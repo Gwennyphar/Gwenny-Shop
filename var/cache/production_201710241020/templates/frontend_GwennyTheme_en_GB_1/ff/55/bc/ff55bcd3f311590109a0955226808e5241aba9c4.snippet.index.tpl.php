@@ -1,6 +1,6 @@
-<?php /* Smarty version Smarty-3.1.12, created on 2017-12-19 22:46:02
+<?php /* Smarty version Smarty-3.1.12, created on 2017-12-19 23:46:58
          compiled from "/var/www/html/shopware/apps/shopware/htdocs/themes/Frontend/Bare/widgets/compare/index.tpl" */ ?>
-<?php /*%%SmartyHeaderCode:13081012185a39889af128c7-83679998%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:17560545485a3996e22ec965-02037139%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
@@ -17,24 +17,24 @@ $_valid = $_smarty_tpl->decodeProperties(array (
       2 => 'snippet',
     ),
   ),
-  'nocache_hash' => '13081012185a39889af128c7-83679998',
+  'nocache_hash' => '17560545485a3996e22ec965-02037139',
   'function' => 
   array (
   ),
   'has_nocache_code' => false,
   'version' => 'Smarty-3.1.12',
-  'unifunc' => 'content_5a39889b02e525_45948653',
+  'unifunc' => 'content_5a3996e2346652_32307506',
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_5a39889b02e525_45948653')) {function content_5a39889b02e525_45948653($_smarty_tpl) {?>
+<?php if ($_valid && !is_callable('content_5a3996e2346652_32307506')) {function content_5a3996e2346652_32307506($_smarty_tpl) {?>
     <?php /*  Call merged included template "frontend/compare/index.tpl" */
 $_tpl_stack[] = $_smarty_tpl;
- $_smarty_tpl = $_smarty_tpl->setupInlineSubTemplate("frontend/compare/index.tpl", $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, null, null, array(), 0, '13081012185a39889af128c7-83679998');
-content_5a39889af19fe0_34029231($_smarty_tpl);
+ $_smarty_tpl = $_smarty_tpl->setupInlineSubTemplate("frontend/compare/index.tpl", $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, null, null, array(), 0, '17560545485a3996e22ec965-02037139');
+content_5a3996e22f2f73_66847216($_smarty_tpl);
 $_smarty_tpl = array_pop($_tpl_stack); /*  End of included template "frontend/compare/index.tpl" */?>
 
-<?php }} ?><?php /* Smarty version Smarty-3.1.12, created on 2017-12-19 22:46:02
+<?php }} ?><?php /* Smarty version Smarty-3.1.12, created on 2017-12-19 23:46:58
          compiled from "/var/www/html/shopware/apps/shopware/htdocs/themes/Frontend/Bare/frontend/compare/index.tpl" */ ?>
-<?php if ($_valid && !is_callable('content_5a39889af19fe0_34029231')) {function content_5a39889af19fe0_34029231($_smarty_tpl) {?><?php if ($_smarty_tpl->tpl_vars['sComparisons']->value){?>
+<?php if ($_valid && !is_callable('content_5a3996e22f2f73_66847216')) {function content_5a3996e22f2f73_66847216($_smarty_tpl) {?><?php if ($_smarty_tpl->tpl_vars['sComparisons']->value){?>
     
         <i class="icon--compare"></i> <?php $_smarty_tpl->smarty->_tag_stack[] = array('snippet', array('name'=>"CompareInfoCount",'namespace'=>'frontend/compare/index')); $_block_repeat=true; echo Enlight_Components_Snippet_Resource::compileSnippetBlock(array('name'=>"CompareInfoCount",'namespace'=>'frontend/compare/index'), null, $_smarty_tpl, $_block_repeat);while ($_block_repeat) { ob_start();?>
 Compare<?php $_block_content = ob_get_clean(); $_block_repeat=false; echo Enlight_Components_Snippet_Resource::compileSnippetBlock(array('name'=>"CompareInfoCount",'namespace'=>'frontend/compare/index'), $_block_content, $_smarty_tpl, $_block_repeat); } array_pop($_smarty_tpl->smarty->_tag_stack);?>

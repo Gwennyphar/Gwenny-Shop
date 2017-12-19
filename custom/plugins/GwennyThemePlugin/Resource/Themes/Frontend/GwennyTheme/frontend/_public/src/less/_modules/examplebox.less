@@ -1,0 +1,42 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 18.12.2017
+    Author     : gwenny
+*/
+.examplebox {
+    .unitize-margin(0, 0, 10, 0);
+    .unitize-padding(10, 10, 10, 10);
+    .border-radius(3px);
+    border: 1px solid @panel-border;
+    display: block;
+    
+    .spacer {
+        .unitize-padding(10, 0, 10, 0);
+    }
+}
+
+.white-font {
+    color: white;
+    .is--bold;
+}
+
+primary {
+    background-color: @brand-primary;
+    .white-font;
+}
+.primary-light {
+    background-color: @brand-primary-light;
+    .white-font;
+}
+.secondary {
+    background-color: @brand-secondary;
+    .white-font;
+}
+.secondary-dark {
+    background-color: @brand-secondary-dark;
+    .white-font;
+}
