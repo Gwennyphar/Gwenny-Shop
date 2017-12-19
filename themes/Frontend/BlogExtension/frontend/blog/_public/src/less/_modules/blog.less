@@ -1,0 +1,72 @@
+/* 
+    Created on : 18.12.2017
+    Author     : gwenny
+*/
+.blog--content {
+    .blog--listing {
+        width: 100%;
+        .blog--box {
+            width: 100%;
+            .blog--box-picture {
+                img {
+                    display: block;
+                    margin: 0 auto;
+                }
+                .unitize-padding(10, 10, 10, 10);
+                height: 200px;
+                width: 100%;
+            }
+            .blog--box-headline {
+                .unitize-margin(30, 10, 0, 20);
+            }
+            .blog--box-description {
+                width: 100%;
+            }
+        }
+    }
+}
+/*480px*/
+@media screen and(min-width: @phoneLandscapeViewportWidth) {
+    .blog--content {
+        .blog--listing {
+            .blog--box {
+                width: 49%;
+                float: left;
+                margin-left: .5%;
+                margin-right: .5%;
+                
+            }
+        }
+    }
+}
+
+/*768px*/
+@media screen and(min-width: @tabletLandscapeViewportWidth) {
+    .blog--content {
+        .blog--listing {
+            .blog--box {
+                width: 32%;
+                float: left;
+                margin-left: .5%;
+                margin-right: .5%;
+            }
+        }
+    }
+}
+
+/*1024px*/
+@media screen and(min-width: @desktopViewportWidth) {
+    // Blog Content
+    .blog--content {
+        // Blog listing
+        .blog--listing {
+            width: 100%;
+            .blog--box {
+                width: 24%;
+                float: left;
+                margin-left: .5%;
+                margin-right: .5%;
+            }
+        }
+    }
+}
