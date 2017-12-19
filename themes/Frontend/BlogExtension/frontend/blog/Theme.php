@@ -12,7 +12,7 @@ class Theme extends \Shopware\Components\Theme {
   protected $extend = 'Responsive';
   protected $name = "Blog-Erweiterung";
   protected $description = "";
-  protected $author = "Daniel Nögel";
+  protected $author = "gwenny";
   protected $license = "";
   protected $javascript = [
     'src/js/blog.js'

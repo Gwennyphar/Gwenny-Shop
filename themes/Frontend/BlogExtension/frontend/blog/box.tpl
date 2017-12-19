@@ -10,9 +10,11 @@
    </div>
 {/block}
 
-{*{block name='frontend_blog_col_read_more'}
-    <div class="blog--box-readmore" data-url="{url controller=blogaction=detail sCategory=$sArticle.categoryId blogArticle=$sArticle.id}">
-      <a href="{url controller=blog action=detail sCategory=$sArticle.categoryId blogArticle=$sArticle.id}" title="{$sArticle.title|escape}" class="btn is--primary is--small">
+{block name='frontend_blog_col_read_more'}
+    <div class="blog--box-readmore" data-url="{url controller=blog
+    action=detail sCategory=$sArticle.categoryId blogArticle=$sArticle.id}">
+      <a href="{url controller=blog action=detail sCategory=$sArticle.categoryId blogArticle=$sArticle.id}" 
+         title="{$sArticle.title|escape}" class="btn is--primary is--small">
         {s name="BlogLinkMore"}{/s}</a>
     </div>
-{/block}*}
+{/block}
